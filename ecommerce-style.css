@@ -1,4 +1,3 @@
-/* Cart feature styles */
 .cart-link {
     position: relative;
     font-weight: bold;
@@ -9,7 +8,6 @@
     vertical-align: middle;
 }
 
-/* Cart toggle button right side */
 .cart-toggle-label {
     display: flex;
     justify-content: flex-end;
