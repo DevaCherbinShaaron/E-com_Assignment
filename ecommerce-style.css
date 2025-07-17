@@ -182,3 +182,14 @@ footer {
     font-size: 1.12em;
     text-shadow: 0 0 8px #00ffe7;
 }
+footer a {
+    color: #00ffe7;
+    text-decoration: none;
+    transition: color 0.2s, text-shadow 0.2s;
+}
+
+footer a:hover {
+    color: #fff;
+    text-shadow: 0 0 16px #00ffe7, 0 0 4px #232946;
+    text-decoration: underline;
+}
