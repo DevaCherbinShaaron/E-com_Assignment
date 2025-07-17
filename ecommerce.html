@@ -9,17 +9,26 @@
     <nav class="navbar">
         <a href="#home">Home</a>
         <a href="#products">Products</a>
-        <a href="#cart">Cart</a>
+        <a href="#cart" class="cart-link">Cart
+        </a>
         <a href="#contact">Contact</a>
     </nav>
-    <header>
-        <h1 class="center">DCS STORE</h1>
-        <p class="center">Shop the best gaming laptops at unbeatable prices!</p>
-    </header>
-    <section class="hero">
-        <h2>Welcome to DCS STORE</h2>
-        <p>Discover the latest and greatest in gaming laptops. Enjoy fast shipping, secure checkout, and top-rated customer service. Your next gaming adventure starts here!</p>
-    </section>
+        <div class="center"><h1 >DCS STORE</h1>
+        <p >Shop the best gaming laptops at unbeatable prices!</p></div>
+    <input type="checkbox" id="cart-toggle" style="display:none;">
+    <label for="cart-toggle" class="cart-toggle-label">
+        <span class="cart-icon">🛒</span> View Cart
+    </label>
+    <aside class="cart-sidebar">
+        <h2>Your Cart</h2>
+        <ul class="cart-items">
+            <li>Predator Helios 300 <span class="cart-price">₹1,19,990</span></li>
+            <li>ROG Strix G15 <span class="cart-price">₹1,49,990</span></li>
+            <li>Alienware m15 R6 <span class="cart-price">₹2,09,990</span></li>
+        </ul>
+        <div class="cart-total">Total: <span>₹4,79,970</span></div>
+        <label for="cart-toggle" class="close-cart">Close</label>
+    </aside>
     <section id="products" class="products">
         <div class="product-card">
             <img src="https://m.media-amazon.com/images/I/61ziSzsGEbL._UF1000,1000_QL80_.jpg" alt="Predator Helios 300">
@@ -59,7 +68,7 @@
         </div>
     </section>
     <footer>
-        <p>&copy; 2023 DCS STORE. All rights reserved.</p>
+        <p>&copy; 2025  DCS STORE. All rights reserved.</p>
         <p>Follow us on  
             <a href="https://www.facebook.com" target="_blank">Facebook</a>, 
             <a href="https://www.twitter.com" target="_blank">Twitter</a>, 
